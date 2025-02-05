@@ -3,7 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react'
 import logo from './../../../public/images/logo.png'
+import { usePathname } from 'next/navigation';
 const Menu = () => {
+    const pathname = usePathname()
 
     const [fixedHeader,setFixedHeader] = useState(false)
 
@@ -15,6 +17,45 @@ const Menu = () => {
     <Link className='menu-left-block' href="/">
         <Image src={logo} width={2000} height={1000} alt='logo' priority={true} className='w-[149px] max-sm:w-[132px]' />
     </Link>
+    <div className='menu-center-block h-full '>
+    <ul className='menu-nav flex items-center xl:gap-2 h-full '>
+    <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/' ? 'active': '' }`}>
+    <Link className='nav-link text-title flex items-center gap-1 ' href="/">
+    <span>Home</span>
+    </Link>
+    </li>
+
+    <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/about' ? 'active': '' }`}>
+    <Link className='nav-link text-title flex items-center gap-1 ' href="/about">
+    <span>About us</span>
+    </Link>
+    </li>
+
+    <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/service' ? 'active': '' }`}>
+    <Link className='nav-link text-title flex items-center gap-1 ' href="/services">
+    <span>Our Services</span>
+    </Link>
+    </li>
+
+    <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/case-studies' ? 'active': '' }`}>
+    <Link className='nav-link text-title flex items-center gap-1 ' href="/case-studies">
+    <span>Case Studies</span>
+    </Link>
+    </li>
+
+    <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/blog' ? 'active': '' }`}>
+    <Link className='nav-link text-title flex items-center gap-1 ' href="/blog">
+    <span>Blog</span>
+    </Link>
+    </li>
+
+    <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/contact' ? 'active': '' }`}>
+    <Link className='nav-link text-title flex items-center gap-1 ' href="/contact">
+    <span>Contact Us</span>
+    </Link>
+    </li>
+    </ul>
+    </div>
 </div>
 </div>
 </>
