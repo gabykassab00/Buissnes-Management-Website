@@ -1,3 +1,4 @@
+import Menu from "./components/header/menu/Menu";
 import Topnav from "./components/header/topnav/Topnav";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="overflow-x-hidden">
     <header id="header">
       <Topnav/>
+      <Menu/>
     </header>
     </div>
     </>
