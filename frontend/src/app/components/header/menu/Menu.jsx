@@ -4,10 +4,12 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import logo from './../../../public/images/logo.png'
 import { usePathname } from 'next/navigation';
+import * as Icon from '@phosphor-icons/react/dist/ssr'
+
 const Menu = () => {
     const pathname = usePathname()
-
     const [fixedHeader,setFixedHeader] = useState(false)
+    const [openMenuMobile,setOpenMenuMobile] = useState(false)
 
   return (
 <>
@@ -70,6 +72,22 @@ const Menu = () => {
                 +123 456 789
             </div>
         </div>
+
+        <div className='menu-humburger hidden pointer' onClick={()=>setOpenMenuMobile(!openMenuMobile)}>
+        <Icon.List className='text-2xl' weight='bold'/>
+        </div>
+    </div>
+</div>
+<div id='menu-mobile-block' className={`${openMenuMobile && 'open'}`}>
+    <div className='menu-mobile-main'>
+        <div className='container'>
+            <ul>
+                <li>
+                    abcedf
+                </li>
+            </ul>
+
+            </div>
     </div>
 </div>
 </div>
