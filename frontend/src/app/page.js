@@ -1,7 +1,13 @@
+import Topnav from "./components/header/topnav/Topnav";
+
 export default function Home() {
   return (
     <>
-    <h1 className="bg-blue-400">this is home page</h1>
+    <div className="overflow-x-hidden">
+    <header id="header">
+      <Topnav/>
+    </header>
+    </div>
     </>
   );
 }
