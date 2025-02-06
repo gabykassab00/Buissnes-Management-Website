@@ -5,6 +5,9 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import one from "./../../public/images/slider/one.jpg";
+import Link from "next/link";
+import two from "./../../public/images/slider/two.jpg";
+import 'swiper/css/bundle' 
 const Slider = () => {
   return (
     <>
@@ -29,7 +32,7 @@ const Slider = () => {
               <div className="slider-item slider-first">
                 <div className="bg-img">
                   <Image
-                    src={one}
+                    src={two}
                     width={4000}
                     height={3000}
                     alt="slider1"
@@ -53,6 +56,52 @@ const Slider = () => {
 
                         <div className="body2 mt-3 text-secondary ">
                             justify items along the center of the container's main axis <br/> justify items along the center of the container's main axis 
+                        </div>
+
+                        <div className="button-block md:mt-10 mt-6 ">
+                            <Link className="button-main bg-blue-700 text-white hover:bg-blue-500" href='/service'>
+                            Discovery Now
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="slider-item slider-first">
+                <div className="bg-img">
+                  <Image
+                    src={one}
+                    width={4000}
+                    height={3000}
+                    alt="slider1"
+                    priority={true}
+                    className="w-full h-full object-cover"
+                  ></Image>
+                </div>
+                <div className="container">
+                    <div className="text-content flex-column-between ">
+                        <div className="heading2">
+                            <div className="relative overflow-hidden">
+                                <span className="block relative overflow-hidden">Easy to Use</span>
+                                <span className="block absolute top-0 left-0 w-full h-full">Easy to use</span>
+                            </div>
+
+                            <div className="relative overflow-hidden">
+                                <span className="block relative overflow-hidden">Our Solution</span>
+                                <span className="block absolute top-0 left-0 w-full h-full">Our Solution</span>
+                            </div>
+                        </div>
+
+                        <div className="body2 mt-3 text-secondary ">
+                            justify items along the center of the container's main axis <br/> justify items along the center of the container's main axis 
+                        </div>
+
+                        <div className="button-block md:mt-10 mt-6 ">
+                            <Link className="button-main bg-blue-700 text-white hover:bg-blue-500" href='/service'>
+                            Discovery Now
+                            </Link>
                         </div>
                     </div>
                 </div>
