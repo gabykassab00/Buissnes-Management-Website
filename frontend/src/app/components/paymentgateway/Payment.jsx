@@ -4,6 +4,7 @@ import React, { useRef } from 'react'
 import Image from 'next/image';
 import gateway1 from './../../public/images/gateway1.webp'
 import avatar3 from './../../public/images/avatar3.webp'
+import Link from 'next/link';
 
 const Payment = () => {
     
@@ -27,8 +28,24 @@ const Payment = () => {
                                 <Image className='full h-full rounded-full' width={300} height={300} src={avatar3} alt='img'/>
                             </div>
                         </div>
+
+                        <div className='text-button text-secondary'>
+                            Trusted by 5 million+ people <br/> around the globe
+                        </div>
+                    </div>
+                    <div className='text lg:mt-14 mt-5'>
+                        <h3 className='heading3'>Payment Gateway Services</h3>
+                        <div className='body3 text-secondary lg:mt-6 mt-4'>
+                            we provide reliable and secure payment gayteway services for buissnes of all sizes with our cutting-edge technology and 24/7 customer support, you can easily accept payments from customers all over the world
+                        </div>
                     </div>
 
+                    <div className='button-block flex items-center max-sm:flex-wrap sm:gap-6 gap-3 lg:mt-12 mt-8 w-fit'>
+                        <Link className='button-main box-shadow bg-blue-700 hover:bg-black text-white bg-blue whitespace-nowrap rounded-full' href='/'>
+                        Get Started 
+                        
+                        </Link>
+                    </div>
                     </div>
                 </div>
 
