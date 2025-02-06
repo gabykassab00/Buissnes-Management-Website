@@ -3,6 +3,8 @@ import { useInView } from 'framer-motion'
 import React, { useRef } from 'react'
 import Image from 'next/image';
 import gateway1 from './../../public/images/gateway1.webp'
+import avatar3 from './../../public/images/avatar3.webp'
+
 const Payment = () => {
     
     const ref = useRef(null)
@@ -18,6 +20,15 @@ const Payment = () => {
             <div className='container w-full lg:py-[150px] pt-14 py-16'>
                 <div className='w-full flex items-center lg:justify-end' ref={ref} >
                     <div className='payment-info lg:w-1/2 xl:pl-20 lg:pl-10'style={{transform:isInview ? "none" : 'translateY(60px)', opacity:isInview?1:0,transition:'all 0.7s cubic-bezier(0.17,0.55,0.55,1) 0.3s' }}>
+                    
+                    <div className='heading flex items-center gap-4 max-lg:flex-wrap'>
+                        <div className='flex items-center'>
+                            <div className='img sm:w-12 w-10 sm:h-12 h-10 rounded-full overflow-hidden bg-line p-0 z-[3]'>
+                                <Image className='full h-full rounded-full' width={300} height={300} src={avatar3} alt='img'/>
+                            </div>
+                        </div>
+                    </div>
+
                     </div>
                 </div>
 
