@@ -7,6 +7,7 @@ import Paymentpart from "./components/paymentgateway/Paymentpart";
 import Service from "./components/service/Service";
 import Slider from "./components/slider/Slider";
 import serviceData from '@/./app/data/service.json'
+import Testimonial from "./components/testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
     <Case/>
     <Paymentpart/>
     <Form/>
+    <Testimonial/>
     </main>
     </div>
     </>
