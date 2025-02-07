@@ -159,39 +159,6 @@ const Case = () => {
               </div>
             </div>
 
-            <div className="w-full">
-              <div className="case-study-item">
-                <div className="bg-img">
-                  <Image
-                    width={5000}
-                    height={5000}
-                    className="w-full h-full block"
-                    src={casefour}
-                    alt="img"
-                  />
-                </div>
-
-                <div className="text flex flex-col justify-between gap-3 ">
-                  <div className="heading6 ">
-                    <Link className="text-white " href="/">
-                      Payment Solution
-                    </Link>
-                  </div>
-                  <div className="body2 text-white ">
-                    Experience the excitment and potentital of the
-                    cryptocurrency market with our expert
-                  </div>
-                  <Link className="flex items-center gap-1 " href="/">
-                    <div className="text-button text-white">Read More</div>
-                    <Icon.CaretDoubleRight
-                      weight="bold"
-                      className="text-xs text-white mt-1"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </section>

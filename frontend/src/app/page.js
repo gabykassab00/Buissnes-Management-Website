@@ -2,6 +2,7 @@ import Case from "./components/casestudy/Case";
 import Menu from "./components/header/menu/Menu";
 import Topnav from "./components/header/topnav/Topnav";
 import Payment from "./components/paymentgateway/Payment";
+import Paymentpart from "./components/paymentgateway/Paymentpart";
 import Service from "./components/service/Service";
 import Slider from "./components/slider/Slider";
 import serviceData from '@/./app/data/service.json'
@@ -19,6 +20,7 @@ export default function Home() {
     <Service data={serviceData}/>
     <Payment/>
     <Case/>
+    <Paymentpart/>
     </main>
     </div>
     </>
