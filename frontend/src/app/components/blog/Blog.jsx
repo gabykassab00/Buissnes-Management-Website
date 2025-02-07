@@ -11,7 +11,7 @@ const Blog = ({data}) => {
             <div className='list grid lg:grid-cols-3 sm:grid-cols-2 gap-8 md:mt-10 mt-6'>
                 {
                     data.slice(0,3).map((item,index)=>(
-                        <Blogitem/>
+                        <Blogitem data={item} key={index}/>
                     ))
                 }
             </div>

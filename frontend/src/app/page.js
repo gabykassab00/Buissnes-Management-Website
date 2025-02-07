@@ -9,7 +9,7 @@ import Slider from "./components/slider/Slider";
 import serviceData from '@/./app/data/service.json'
 import Testimonial from "./components/testimonial/Testimonial";
 import Blog from "./components/blog/Blog";
-import blogData from './data/blog.json'
+import blogData from '@/./app/data/blog.json';
 export default function Home() {
   return (
     <>
