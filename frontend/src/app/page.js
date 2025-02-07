@@ -1,4 +1,5 @@
 import Case from "./components/casestudy/Case";
+import Form from "./components/formrequest/Form";
 import Menu from "./components/header/menu/Menu";
 import Topnav from "./components/header/topnav/Topnav";
 import Payment from "./components/paymentgateway/Payment";
@@ -21,6 +22,7 @@ export default function Home() {
     <Payment/>
     <Case/>
     <Paymentpart/>
+    <Form/>
     </main>
     </div>
     </>
