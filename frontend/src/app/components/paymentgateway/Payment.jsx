@@ -5,6 +5,8 @@ import Image from 'next/image';
 import gateway1 from './../../public/images/gateway1.webp'
 import avatar3 from './../../public/images/avatar3.webp'
 import Link from 'next/link';
+import * as Icon from '@phosphor-icons/react/dist/ssr'
+import dot from './../../public/images/component/gateway1-dot.png'
 
 const Payment = () => {
     
@@ -45,6 +47,14 @@ const Payment = () => {
                         Get Started 
                         
                         </Link>
+
+                        <div className='relative'>
+                        <Link className='button-main box-shadow hover:bg-black hover:text-white text-on-surface bg-white flex items-center gap-2 rounded-full relative z-[1]' href='/'>
+                        <Icon.Phone weight='fill' className='text-xl'/>
+                        <span className='whitespace-nowrap '>(00) 123 456 789</span>
+                        </Link>
+                        <Image src={dot} className='absolute -right-12 w-[100px] h-auto top-1/2 -translate-y-1/2' width={4000} height={4000} alt='img'/>
+                        </div>
                     </div>
                     </div>
                 </div>
