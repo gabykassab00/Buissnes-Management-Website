@@ -40,6 +40,32 @@ const Paymentpart = () => {
                     <div className='bg-img '>
                         <Image width={5000} height={5000} className='w-full' src={gateway2} alt='image'/>
                     </div>
+                    <div className='feature-item py-4 px-6 rounded-2xl bg-white inline-flex items-center gap-4 box-shadow'>
+                        <i className='icon-list text-2xl  p-4 rounded-2xl bg-red-400'></i>
+                        <div className='text'>
+                            <div className='heading7'>2K+</div>
+                            <div className='heading 7 text-secondary'>Projects</div>
+                        </div>
+                    </div>
+
+                    <div className='feature-item py-4 px-6 rounded-2xl bg-white inline-flex items-center gap-4 box-shadow'>
+                        <Icon.Star weight='fill' className='text-yellow-600 text-3xl'/> 
+                        <div className='text'>
+                            <div className='heading7'>4.8</div>
+                            <div className='heading7'>Satisfaction</div>
+
+                        </div>
+                    </div>
+
+
+                    <div className='feature-item py-4 px-6 rounded-2xl bg-white inline-flex items-center gap-4 box-shadow'>
+                        <i className='icon-user text-2xl  p-4 rounded-2xl bg-red-800'></i>
+                        <div className='text'>
+                            <div className='heading7'>6 Years</div>
+                            <div className='heading 7 text-secondary'>Product Designer</div>
+                        </div>
+                    </div>
+
                 </div>
                 </div>
             </div>
