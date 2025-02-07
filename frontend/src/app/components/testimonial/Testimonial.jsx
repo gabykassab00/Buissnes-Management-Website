@@ -23,10 +23,26 @@ const Testimonial = () => {
                         modules={[Pagination, Autoplay, Navigation]}
                         className="h-full relative lg:mt-10 mt-7"
                         autoplay={{ delay: 4000 }}
-                      ></Swiper>
-                      <SwiperSlide>
-                        
+
+                      >
+
+                      <SwiperSlide className="lg:pb-24 pb-20 ">
+                        <div className="text-2xl font-medium text-center">
+                            {String.raw`"`}Working with this agency has been a game-changer for our buissnes. their team is knowledgeable,responsive,and always goes the extra mile
+                        </div>
+                        <div className="text-button text-center mt-5">
+                            Joe Tatum //CEO
+                        </div>
                       </SwiperSlide>
+                      <SwiperSlide className="lg:pb-24 pb-20 ">
+                        <div className="text-2xl font-medium text-center">
+                            {String.raw`"`}Working with this agency has been a game-changer for our buissnes. their team is knowledgeable,responsive,and always goes the extra mile
+                        </div>
+                        <div className="text-button text-center mt-5">
+                            Karl Lagerfield  //CTO
+                        </div>
+                      </SwiperSlide>
+                      </Swiper>
         </div>
     </div>
 </div>
