@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import * as Icon from '@phosphor-icons/react/dist/ssr'
-
+import Image from 'next/image'
+import casefour from '../../public/images/casefour.webp'
 const Case = () => {
   return (
     <div>
@@ -22,6 +23,18 @@ const Case = () => {
                         </div>
                         <Icon.CaretDoubleRight weight='bold' className='text-xs mt-1'/>
                     </Link>
+                </div>
+            </div>
+        </div>
+
+        <div className='list-case-study md:mt-10 mt-6'>
+            <div className='list grid lg:grid-cols-4 sm:grid-cols-2'>
+                <div className='w-full'>
+                    <div className='case-study-item'>
+                        <div className='bg-img'>
+                            <Image width={5000} height={5000} className='w-full h-full block' src={casefour} alt='img'/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
