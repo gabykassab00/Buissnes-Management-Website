@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
+import * as Icon from '@phosphor-icons/react/dist/ssr'
 
 const Case = () => {
   return (
@@ -14,6 +16,12 @@ const Case = () => {
                     <div className='body3'>
                         Exporing in depth and inspiring case studies of success stories 
                     </div>
+                    <Link className='flex items-center gap-2 hover:text-blue duration-300' href='/'>
+                        <div className='text-button'>
+                            View All Case List 
+                        </div>
+                        <Icon.CaretDoubleRight weight='bold' className='text-xs mt-1'/>
+                    </Link>
                 </div>
             </div>
         </div>
