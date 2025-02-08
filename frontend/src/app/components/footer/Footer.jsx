@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import logowhite from './../../public/images/LogoWhite.png'
 import Link from 'next/link'
+import * as Icon from '@phosphor-icons/react/dist/ssr'
 
 const Footer = () => {
   return (
@@ -152,6 +153,18 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+                <div className='locate mt-3 flex items-center '>
+                    <div className='caption1 text-surface text-white'>
+                        187 2th st, east chicago. USA
+                    </div>
+                </div>
+
+                <form className='send-block mt-5 flex items-center h-[45px] rounded-lg overflow-hidden'>
+                <input className='caption1 text-secondary h-full w-full pr-4 pl-3' type='text' placeholder='Your Email Adress'/>
+                <button className='flex items-center justify-center w-[45px] h-[45px] bg-blue-800 flex-shrink-0'>
+                <Icon.PaperPlaneTilt className='text-white'/>
+                </button>
+                </form>
         </div>
         </div>
         </div>
