@@ -10,6 +10,7 @@ import serviceData from '@/./app/data/service.json'
 import Testimonial from "./components/testimonial/Testimonial";
 import Blog from "./components/blog/Blog";
 import blogData from '@/./app/data/blog.json';
+import Partner from "./components/partner/Partner";
 export default function Home() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home() {
     <Form/>
     <Testimonial/>
     <Blog data={blogData}/>
+    <Partner className='lg:mt-[100px] sm:mt-16 mt-10'/>
     </main>
     </div>
     </>
