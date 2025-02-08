@@ -4,7 +4,7 @@ import Menu from '../components/header/menu/Menu'
 import Partner from '../components/partner/Partner'
 import Footer from '../components/footer/Footer'
 import Breadcrumb from '../components/section/Breadcrumb'
-
+import header from '../../../public/header.webp'
 const Page = () => {
   return (
 <div className="overflow-x-hidden">
@@ -13,7 +13,7 @@ const Page = () => {
       <Menu/>
     </header>
     <main className='content'>
-      <Breadcrumb/>
+      <Breadcrumb link="about us" img={header} title="about us" desc="the jobs report soundly beat expectations , with job gains broadly spread across the economy and about 60% higher "/>
     </main>
     <Partner className='lg:mt-[100px] sm:mt-16 mt-10'/>
     <footer id="footer">
