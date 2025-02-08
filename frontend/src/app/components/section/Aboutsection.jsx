@@ -25,6 +25,8 @@ const Aboutsection = () => {
 
                 <div className='button-block flex items-center gap-5 md:mt-10 mt-6 pb-2'>
                     <a href='#' className='button-main text-white bg-blue-800 hover-button-black text-button rounded-full '> Get started</a>
+                    <a href='#' className='button-main text-on-surface hover:bg-black hover:text-white hover:border-transparent bg-white text-button rounded-full border-2 border-blue-800 flex items-center gap-2  '> (00) 5656-465-455</a>
+
                 </div>
                 </div>
             </div>
