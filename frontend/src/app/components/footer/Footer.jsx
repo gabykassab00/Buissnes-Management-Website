@@ -70,6 +70,69 @@ const Footer = () => {
                 </li>
             </ul>
             </div>
+
+            <div className='footer-nav-item max-sm:hidden'>
+            <div className='item-heading text-button-sm text-white'>
+                Pages
+            </div>
+            <ul className='list-nav mt-1 text-white'>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                        FAQs
+                    </Link>
+                    
+                </li>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                        Pricing
+                    </Link>
+                    
+                </li>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                        Partners
+                    </Link>
+                    
+                </li>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                        Support Center
+                    </Link>
+                    
+                </li>
+            </ul>
+            </div>
+            <div className='footer-nav-item max-sm:hidden'>
+            <div className='item-heading text-button-sm text-white'>
+                Blog
+            </div>
+            <ul className='list-nav mt-1 text-white'>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                            Blog List
+                    </Link>
+                    
+                </li>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                        Blog Grid
+                    </Link>
+                    
+                </li>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                        Masonry
+                    </Link>
+                    
+                </li>
+                <li className='mt-3'>
+                    <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
+                        Blog Detail
+                    </Link>
+                    
+                </li>
+            </ul>
+            </div>
         </div>
         
         </div>
