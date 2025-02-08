@@ -136,6 +136,24 @@ const Footer = () => {
         </div>
         
         </div>
+
+        <div className='lg:w-1/4'>
+        <div className='company-contact'>
+            <div className='heading text-button-sm text-white'>
+                NewsLetter
+            </div>
+            <div className='mt-3 flex items-start'>
+                <div className='text'>
+                    <div className='caption2 text-surface text-white'>
+                        Need Help? 24/7 
+                    </div>
+                    <div className='fw-700 text-white mt-1'>
+                        566-888-181818
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
       </div>
     </div>
