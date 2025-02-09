@@ -6,6 +6,8 @@ import Footer from '../components/footer/Footer'
 import Breadcrumb from '../components/section/Breadcrumb'
 import header from '../../../public/header.webp'
 import blogData from '@/app/data/blog.json'
+import Blog from '../components/blog/Blog'
+import BlogList from '../components/section/Bloglist'
 const Page = () => {
   return (
 <div className="overflow-x-hidden">
@@ -15,7 +17,7 @@ const Page = () => {
     </header>
     <main className='content'>
       <Breadcrumb link="Blog" img={header} title="Blog" />
-        
+        <BlogList data={blogData}/>
     </main>
     <Partner className='lg:mt-[100px] sm:mt-16 mt-10'/>
     <footer id="footer">

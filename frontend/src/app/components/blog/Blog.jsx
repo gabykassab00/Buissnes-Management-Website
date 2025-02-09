@@ -12,6 +12,7 @@ const Blog = ({data}) => {
                 {
                     data.slice(0,3).map((item,index)=>(
                         <Blogitem data={item} key={index}/>
+                    
                     ))
                 }
             </div>
