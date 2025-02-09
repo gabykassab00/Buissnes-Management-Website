@@ -8,6 +8,7 @@ import header from '../../../../../public/header.webp'
 import serviceData from '@/./app/data/service.json'
 import Image from 'next/image'
 import detail from '../../../public/images/bottom-slider-three.webp'
+import ads from '../../../public/images/ads.webp'
 import Link from 'next/link'
 const Page = () => {
   return (
@@ -67,6 +68,31 @@ const Page = () => {
                                     personal finance
                                 </div>
                             </Link>
+                        </div>
+                    </div>
+
+
+                    <div className='ads-block rounded-lg md:mt-10 mt-6 relative'>
+                        <div className='bg-img'>
+                            <Image width={5000} height={5000} src={ads} alt='img'/>
+                        </div>
+
+                        <div className='text flex flex-col justify-between absolute left-0 top-0 w-full h-full p-8'>
+                            <div className='title'>
+                                <div className='heading5 text-white'>
+                                    let's talk 
+                                </div>
+
+                                <div className='body3 text-white mt-4'>
+                                    if you have project contact us
+                                </div>
+                            </div>
+
+                            <div className='button-block md:mt-10 mt-6'>
+                                <Link className='button-main hover:bg-black hover:text-white inline-block bg-white text-button' href='/contact'>
+                                Contact us
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
