@@ -52,6 +52,21 @@ const Page = () => {
                                     Payment solution
                                 </div>
                             </Link>
+                            <Link className='nav-item rounded-lg flex-between p-12' href='/'>
+                                <div className='text-button text-secondary'>
+                                    financial planning
+                                </div>
+                            </Link>
+                            <Link className='nav-item rounded-lg flex-between p-12' href='/'>
+                                <div className='text-button text-secondary'>
+                                    online banking 
+                                </div>
+                            </Link>
+                            <Link className='nav-item rounded-lg flex-between p-12' href='/'>
+                                <div className='text-button text-secondary'>
+                                    personal finance
+                                </div>
+                            </Link>
                         </div>
                     </div>
 
