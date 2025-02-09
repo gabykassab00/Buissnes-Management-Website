@@ -45,6 +45,12 @@ const BlogList = ({data}) => {
                           </div>
 
                         </div>
+
+                        <div className='body3 text-secondary mt-4 pb-4 '>{item.desc}</div>
+
+                        <div className='read font-bold underline'>
+                          Read More
+                        </div>
                         </div>
                     </Link>
                 ))
