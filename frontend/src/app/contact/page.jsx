@@ -98,7 +98,39 @@ const Page = () => {
                         </div>
                     
 
-                
+                        <div className='w-full xl:w-3/5 xl:pl-20'>
+                        <form className='form-block flex flex-col justify-between gap-5'>
+                            <div className='heading'>
+                                <div className='heading5'>Request A Quote</div>
+                                <div className='body3 text-secondary mt-2 '>
+                                    we will back to you within 24 hours
+                                </div>
+                            </div>
+
+                            <div className='grid sm:grid-cols-2 gap-5'>
+                                <div className='w-full '>
+                                    <input type='text' name='name' placeholder='Name' className='w-full bg-slate-100 text-secondary caption1 px-4 py-3 rounded-lg' />
+
+                                </div>
+                                <div className='w-full '>
+                                    <input type='text' name='name' placeholder='subject' className='w-full bg-slate-100 text-secondary caption1 px-4 py-3 rounded-lg' />
+                                     
+                                </div>
+
+                                <div className='col-span-2'>
+                                <input type='email' name='name' placeholder='email' className='w-full bg-slate-100 text-secondary caption1 px-4 py-3 rounded-lg' />
+                                </div>
+
+                                <div className='col-span-2 w-full'>
+                                    <textarea name='message' id='message' rows={4} placeholder='your message' className='w-full bg-slate-100 text-secondary caption1 px-4 py-3 rounded-lg'></textarea>
+                                </div>
+
+                                <div className='button-block'>
+                                    <button className='button-main hover:border-blue-800 bg-blue-500 text-white text-button rounded-full'>Send message</button>
+                                </div>
+                            </div>
+                        </form>
+                        </div>
 
                     </div>
                 </div>
