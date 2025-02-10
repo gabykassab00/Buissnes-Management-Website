@@ -5,10 +5,7 @@ import Partner from '../components/partner/Partner'
 import Footer from '../components/footer/Footer'
 import Breadcrumb from '../components/section/Breadcrumb'
 import header from '../../../public/header.webp'
-import Service from '../components/service/Service'
-import serviceData from '@/./app/data/service.json'
 import Image from 'next/image'
-import assessment from './../../../../frontend/public/assessment.webp'
 import * as Icon from '@phosphor-icons/react/dist/ssr'
 
 const Page = () => {
@@ -58,9 +55,51 @@ const Page = () => {
                                     <i className="icon-youtube text-black"></i>
                                 </a>
                             </div>
+
+                            <div className='list-more-info md:mt-10 mt-6'>
+                                <div className='item flex items-center gap-3'>
+                                    <div className='flex items-center justify-center w-8 h-8 bg-white rounded-full flex-shrink-0'>
+                                    <Icon.Clock weight='bold' className='text-blue text-2xl '/>
+                                    </div>
+
+                                    <div className='line-y'></div>
+                                    <div className='text-button normal-case text-white'>8AM - 6PM</div>
+                                </div>
+
+                                <div className='item flex items-center gap-3 mt-5'>
+                                    <div className='flex items-center justify-center w-8 h-8 bg-white rounded-full flex-shrink-0'>
+                                    <Icon.Phone weight='bold' className='text-blue text-2xl '/>
+                                    </div>
+
+                                    <div className='line-y'></div>
+                                    <div className='text-button normal-case text-white'>454-454-554</div>
+                                </div>
+
+                                <div className='item flex items-center gap-3 mt-5'>
+                                    <div className='flex items-center justify-center w-8 h-8 bg-white rounded-full flex-shrink-0'>
+                                    <Icon.EnvelopeSimple weight='bold' className='text-blue text-2xl '/>
+                                    </div>
+
+                                    <div className='line-y'></div>
+                                    <div className='text-button normal-case text-white'>support@easylernig.com</div>
+                                </div>
+
+                                <div className='item flex items-center gap-3 mt-5'>
+                                    <div className='flex items-center justify-center w-8 h-8 bg-white rounded-full flex-shrink-0'>
+                                    <Icon.MapPin weight='bold' className='text-blue text-2xl '/>
+                                    </div>
+
+                                    <div className='line-y'></div>
+                                    <div className='text-button normal-case text-white'>57 r, saudi-arabia</div>
+                                </div>
+
+                            </div>
                         </div>
                         </div>
                     
+
+                
+
                     </div>
                 </div>
             </div>
